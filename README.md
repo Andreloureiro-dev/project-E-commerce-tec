@@ -1,42 +1,43 @@
 # Project - Technology Store
-This project is a web-based e-commerce application developed in PHP, focused on selling computer products. The system offers complete functionality for both end users and administrators, integrating a responsive frontend, secure backend, and MySQL database.
 
-## Features - For Users
-Product Browsing: View products with images, prices, categories, and descriptions
+This project is a web-based e-commerce application focused on technology products. The goal is to provide a modern and intuitive experience for both customers and administrators, allowing easy navigation, shopping, and product management.
 
-Dynamic Filtering: Filter products by category (computer, laptop, mobile) and maximum price
+## Features
 
-Shopping Cart: Add and remove products dynamically with automatic total updates
-
-Checkout: Purchase summary and order completion option
-
-## Features - For Administrators
-Authentication: Protected admin area with login system
-
-Product Management: Add new products, update prices and stock quantities through the interface
-
-Order Management: View all completed orders with customer details and total values
+- Product browsing with images, prices, categories, and descriptions.
+- Dynamic filtering by category (computer, laptop, mobile) and maximum price.
+- Interactive shopping cart: add, remove, and automatic total update.
+- Checkout area with purchase summary.
+- Admin area protected by login, for product management and order overview.
+- Add and update products directly through the admin interface.
 
 ## Technologies Used
-Frontend: HTML5, CSS3 (Bootstrap), JavaScript
 
-Backend: PHP (procedural)
+- **HTML5**: Page structure.
+- **CSS3 (Bootstrap)**: Styling, responsiveness, and modern layout.
+- **JavaScript**: Interactivity (filters, cart, form validation).
+- **PHP**: Backend for data handling, authentication, and database integration.
+- **MySQL**: Storage for products and orders.
 
-Database: MySQL
+## Project Structure
 
-Integration: AJAX for cart operations and product filtering
+- `index.php`: Main store page.
+- `includes/`: PHP scripts for database operations, cart, header, and footer.
+- `pages/`: Admin, login, checkout, and order processing pages.
+- `src/css`: Custom style files.
+- `src/js`: Scripts for product filtering, form validation, and cart.
+- `src/img`: Product images and promotional banners.
 
-## Installation & Setup
-Clone the repository and set up a local server (XAMPP, WAMP, etc.)
+## How to Use
 
-Import the MySQL database with the appropriate structure (products and orders tables)
+1. Clone the repository and set up a local server (XAMPP, WAMP, etc).
+2. Import the MySQL database with the products and orders tables.
+3. Adjust the database connection credentials in `includes/database.php`.
+4. Access `index.php` to view the store or `pages/login.php` for the admin area.
 
-Adjust database connection credentials in database.php
+## Purpose
 
-Access index.php to view the store or login.php to access the admin area
-
-## Usage
-Customers: Browse products, use filters, add items to cart, and complete purchases
+This project was developed to practice and demonstrate skills in web development, frontend and backend integration, database management, and the creation of interactive and responsive interfaces.
 
 Administrators: Log in to manage products and view orders through the admin interface
 
